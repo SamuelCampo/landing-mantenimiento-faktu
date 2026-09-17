@@ -1,265 +1,275 @@
 ---
-const whatsappNumber = '+56 9 3677 6040';
-const whatsappHref = 'https://wa.me/56936776040';
-const email = 'info@faktu.net';
+const whatsappNumber = "+569 6170 5656";
+const whatsappHref = "https://wa.me/56961705656";
+const email = "info@faktu.net";
 ---
 
 <html lang="es">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="generator" content={Astro.generator} />
-		<meta name="robots" content="noindex, nofollow, noarchive, nosnippet" />
-		<meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet" />
-		<meta name="description" content="Estamos presentando intermitencia en el servicio. Estamos trabajando para restablecer la plataforma lo antes posible." />
-		<title>Intermitencia en el servicio | FAKTU.net</title>
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
-			rel="stylesheet"
-		/>
-		<link rel="stylesheet" href="/landing/design-tokens.css" />
-	</head>
-	<body>
-		<main class="page">
-			<section class="card" aria-labelledby="status-title">
-				<img
-					class="logo"
-					src="/landing/logo-faktu.png"
-					alt="FAKTU.net"
-					width="280"
-					height="56"
-				/>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet" />
+    <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet" />
+    <meta
+      name="description"
+      content="Estamos presentando intermitencia en el servicio. Estamos trabajando para restablecer la plataforma lo antes posible."
+    />
+    <title>Intermitencia en el servicio | FAKTU.net</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/landing/design-tokens.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="card" aria-labelledby="status-title">
+        <img
+          class="logo"
+          src="/landing/logo-faktu.png"
+          alt="FAKTU.net"
+          width="280"
+          height="56"
+        />
 
-				<img
-					class="icon"
-					src="/landing/icono-servidor-faktu.png"
-					alt=""
-					width="168"
-					height="168"
-				/>
+        <img
+          class="icon"
+          src="/landing/icono-servidor-faktu.png"
+          alt=""
+          width="168"
+          height="168"
+        />
 
-				<h1 id="status-title">
-					<span>Estamos presentando</span>
-					<span class="accent">intermitencia en el servicio</span>
-				</h1>
+        <h1 id="status-title">
+          <span>Estamos presentando</span>
+          <span class="accent">intermitencia en el servicio</span>
+        </h1>
 
-				<p class="lead">
-					Estamos trabajando para restablecer la plataforma lo antes posible.
-				</p>
+        <p class="lead">
+          Estamos trabajando para restablecer la plataforma lo antes posible.
+        </p>
 
-				<p class="contact-label">Si necesitas ayuda, contáctanos:</p>
+        <p class="contact-label">Si necesitas ayuda, contáctanos:</p>
 
-				<div class="actions">
-					<a class="chip chip-whatsapp" href={whatsappHref} target="_blank" rel="noopener noreferrer">
-						<svg viewBox="0 0 24 24" aria-hidden="true">
-							<path
-								fill="currentColor"
-								d="M12.04 2C6.58 2 2.15 6.43 2.15 11.89c0 1.75.46 3.45 1.32 4.95L2 22l5.31-1.39a9.86 9.86 0 0 0 4.73 1.2h.01c5.46 0 9.89-4.43 9.89-9.89C21.94 6.43 17.5 2 12.04 2Zm5.76 14.16c-.24.67-1.4 1.24-1.94 1.32-.5.07-1.13.1-1.82-.11-.42-.13-.95-.31-1.64-.6-2.89-1.25-4.77-4.16-4.92-4.35-.14-.19-1.18-1.57-1.18-3 0-1.42.74-2.12 1.01-2.41.26-.29.58-.36.77-.36h.56c.18 0 .42-.07.66.5.24.58.82 2 .89 2.15.07.14.12.31.02.5-.1.19-.14.31-.29.48-.14.17-.3.37-.43.5-.14.14-.29.29-.12.56.16.28.73 1.2 1.56 1.95 1.07.96 1.97 1.26 2.25 1.4.28.14.44.12.6-.07.17-.19.7-.81.88-1.09.19-.28.37-.23.62-.14.26.1 1.64.77 1.92.91.28.14.47.21.54.33.07.12.07.67-.17 1.34Z"
-							/>
-						</svg>
-						<span class="chip-divider"></span>
-						<span class="chip-copy">
-							<span class="chip-kicker">WhatsApp</span>
-							<span class="chip-value">{whatsappNumber}</span>
-						</span>
-					</a>
+        <div class="actions">
+          <a
+            class="chip chip-whatsapp"
+            href={whatsappHref}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                fill="currentColor"
+                d="M12.04 2C6.58 2 2.15 6.43 2.15 11.89c0 1.75.46 3.45 1.32 4.95L2 22l5.31-1.39a9.86 9.86 0 0 0 4.73 1.2h.01c5.46 0 9.89-4.43 9.89-9.89C21.94 6.43 17.5 2 12.04 2Zm5.76 14.16c-.24.67-1.4 1.24-1.94 1.32-.5.07-1.13.1-1.82-.11-.42-.13-.95-.31-1.64-.6-2.89-1.25-4.77-4.16-4.92-4.35-.14-.19-1.18-1.57-1.18-3 0-1.42.74-2.12 1.01-2.41.26-.29.58-.36.77-.36h.56c.18 0 .42-.07.66.5.24.58.82 2 .89 2.15.07.14.12.31.02.5-.1.19-.14.31-.29.48-.14.17-.3.37-.43.5-.14.14-.29.29-.12.56.16.28.73 1.2 1.56 1.95 1.07.96 1.97 1.26 2.25 1.4.28.14.44.12.6-.07.17-.19.7-.81.88-1.09.19-.28.37-.23.62-.14.26.1 1.64.77 1.92.91.28.14.47.21.54.33.07.12.07.67-.17 1.34Z"
+              ></path>
+            </svg>
+            <span class="chip-divider"></span>
+            <span class="chip-copy">
+              <span class="chip-kicker">WhatsApp</span>
+              <span class="chip-value">{whatsappNumber}</span>
+            </span>
+          </a>
 
-					<a class="chip chip-email" href={`mailto:${email}`}>
-						<svg viewBox="0 0 24 24" aria-hidden="true">
-							<path
-								fill="currentColor"
-								d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2Zm0 4-8 5L4 8V6l8 5 8-5v2Z"
-							/>
-						</svg>
-						<span class="chip-divider"></span>
-						<span class="chip-copy">
-							<span class="chip-kicker">Correo</span>
-							<span class="chip-value">{email}</span>
-						</span>
-					</a>
-				</div>
+          <a class="chip chip-email" href={`mailto:${email}`}>
+            <svg viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                fill="currentColor"
+                d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2Zm0 4-8 5L4 8V6l8 5 8-5v2Z"
+              ></path>
+            </svg>
+            <span class="chip-divider"></span>
+            <span class="chip-copy">
+              <span class="chip-kicker">Correo</span>
+              <span class="chip-value">{email}</span>
+            </span>
+          </a>
+        </div>
 
-				<p class="thanks">Gracias por tu paciencia.</p>
-			</section>
-		</main>
-	</body>
+        <p class="thanks">Gracias por tu paciencia.</p>
+      </section>
+    </main>
+  </body>
 </html>
 
 <style>
-	* {
-		box-sizing: border-box;
-	}
+  * {
+    box-sizing: border-box;
+  }
 
-	html,
-	body {
-		margin: 0;
-		min-height: 100%;
-	}
+  html,
+  body {
+    margin: 0;
+    min-height: 100%;
+  }
 
-	body {
-		font-family: Poppins, Arial, sans-serif;
-		color: var(--faktu-text-primary);
-		background-color: var(--faktu-navy-900);
-		background-image: url('/landing/fondo-faktu.png');
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-	}
+  body {
+    font-family: Poppins, Arial, sans-serif;
+    color: var(--faktu-text-primary);
+    background-color: var(--faktu-navy-900);
+    background-image: url("/landing/fondo-faktu.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 
-	.page {
-		min-height: 100vh;
-		display: grid;
-		place-items: center;
-		padding: 2rem 1.25rem;
-	}
+  .page {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 2rem 1.25rem;
+  }
 
-	.card {
-		width: min(920px, 100%);
-		background: var(--faktu-surface);
-		border-radius: 32px;
-		padding: 2.5rem 2rem 2.25rem;
-		text-align: center;
-		box-shadow: 0 24px 60px rgba(8, 38, 61, 0.28);
-	}
+  .card {
+    width: min(920px, 100%);
+    background: var(--faktu-surface);
+    border-radius: 32px;
+    padding: 2.5rem 2rem 2.25rem;
+    text-align: center;
+    box-shadow: 0 24px 60px rgba(8, 38, 61, 0.28);
+  }
 
-	.logo {
-		display: block;
-		width: min(220px, 70%);
-		height: auto;
-		margin: 0 auto 1.25rem;
-	}
+  .logo {
+    display: block;
+    width: min(220px, 70%);
+    height: auto;
+    margin: 0 auto 1.25rem;
+  }
 
-	.icon {
-		display: block;
-		width: 148px;
-		height: auto;
-		margin: 0 auto 1.5rem;
-		filter: drop-shadow(0 10px 24px rgba(19, 155, 215, 0.28));
-	}
+  .icon {
+    display: block;
+    width: 148px;
+    height: auto;
+    margin: 0 auto 1.5rem;
+    filter: drop-shadow(0 10px 24px rgba(19, 155, 215, 0.28));
+  }
 
-	h1 {
-		margin: 0;
-		font-size: clamp(1.7rem, 4vw, 2.55rem);
-		line-height: 1.15;
-		font-weight: 800;
-		letter-spacing: -0.03em;
-	}
+  h1 {
+    margin: 0;
+    font-size: clamp(1.7rem, 4vw, 2.55rem);
+    line-height: 1.15;
+    font-weight: 800;
+    letter-spacing: -0.03em;
+  }
 
-	h1 span {
-		display: block;
-	}
+  h1 span {
+    display: block;
+  }
 
-	.accent {
-		color: var(--faktu-blue-500);
-	}
+  .accent {
+    color: var(--faktu-blue-500);
+  }
 
-	.lead {
-		margin: 1rem auto 0;
-		max-width: 38rem;
-		color: var(--faktu-text-secondary);
-		font-size: clamp(0.95rem, 2vw, 1.05rem);
-		line-height: 1.5;
-	}
+  .lead {
+    margin: 1rem auto 0;
+    max-width: 38rem;
+    color: var(--faktu-text-secondary);
+    font-size: clamp(0.95rem, 2vw, 1.05rem);
+    line-height: 1.5;
+  }
 
-	.contact-label {
-		margin: 1.5rem 0 1rem;
-		font-weight: 600;
-		font-size: 0.98rem;
-	}
+  .contact-label {
+    margin: 1.5rem 0 1rem;
+    font-weight: 600;
+    font-size: 0.98rem;
+  }
 
-	.actions {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		gap: 0.85rem;
-	}
+  .actions {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.85rem;
+  }
 
-	.chip {
-		display: inline-flex;
-		align-items: center;
-		gap: 0.85rem;
-		min-height: 3.15rem;
-		padding: 0.55rem 1.15rem 0.55rem 0.95rem;
-		border-radius: 999px;
-		text-decoration: none;
-		font-weight: 600;
-		transition: transform 0.15s ease, box-shadow 0.15s ease;
-	}
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.85rem;
+    min-height: 3.15rem;
+    padding: 0.55rem 1.15rem 0.55rem 0.95rem;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 600;
+    transition:
+      transform 0.15s ease,
+      box-shadow 0.15s ease;
+  }
 
-	.chip svg {
-		width: 22px;
-		height: 22px;
-		flex-shrink: 0;
-	}
+  .chip svg {
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+  }
 
-	.chip-divider {
-		width: 1px;
-		height: 1.35rem;
-		opacity: 0.35;
-		background: currentColor;
-	}
+  .chip-divider {
+    width: 1px;
+    height: 1.35rem;
+    opacity: 0.35;
+    background: currentColor;
+  }
 
-	.chip-copy {
-		display: flex;
-		align-items: baseline;
-		gap: 0.45rem;
-		flex-wrap: wrap;
-		justify-content: flex-start;
-		text-align: left;
-	}
+  .chip-copy {
+    display: flex;
+    align-items: baseline;
+    gap: 0.45rem;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    text-align: left;
+  }
 
-	.chip-kicker {
-		font-weight: 500;
-		opacity: 0.92;
-	}
+  .chip-kicker {
+    font-weight: 500;
+    opacity: 0.92;
+  }
 
-	.chip-value {
-		font-weight: 700;
-		white-space: nowrap;
-	}
+  .chip-value {
+    font-weight: 700;
+    white-space: nowrap;
+  }
 
-	.chip-whatsapp {
-		color: #fff;
-		background: linear-gradient(180deg, #2ea8e8 0%, var(--faktu-blue-500) 100%);
-		box-shadow: 0 8px 18px rgba(19, 155, 215, 0.28);
-	}
+  .chip-whatsapp {
+    color: #fff;
+    background: linear-gradient(180deg, #2ea8e8 0%, var(--faktu-blue-500) 100%);
+    box-shadow: 0 8px 18px rgba(19, 155, 215, 0.28);
+  }
 
-	.chip-email {
-		color: var(--faktu-navy-700);
-		background: var(--faktu-surface);
-		border: 1.5px solid #d7e6f0;
-	}
+  .chip-email {
+    color: var(--faktu-navy-700);
+    background: var(--faktu-surface);
+    border: 1.5px solid #d7e6f0;
+  }
 
-	.chip:hover {
-		transform: translateY(-1px);
-	}
+  .chip:hover {
+    transform: translateY(-1px);
+  }
 
-	.thanks {
-		margin: 1.75rem 0 0;
-		color: var(--faktu-text-secondary);
-		font-size: 0.95rem;
-	}
+  .thanks {
+    margin: 1.75rem 0 0;
+    color: var(--faktu-text-secondary);
+    font-size: 0.95rem;
+  }
 
-	@media (max-width: 720px) {
-		.card {
-			padding: 2rem 1.25rem 1.75rem;
-			border-radius: 24px;
-		}
+  @media (max-width: 720px) {
+    .card {
+      padding: 2rem 1.25rem 1.75rem;
+      border-radius: 24px;
+    }
 
-		.actions {
-			flex-direction: column;
-			align-items: stretch;
-		}
+    .actions {
+      flex-direction: column;
+      align-items: stretch;
+    }
 
-		.chip {
-			justify-content: center;
-		}
+    .chip {
+      justify-content: center;
+    }
 
-		.chip-copy {
-			justify-content: center;
-		}
-	}
+    .chip-copy {
+      justify-content: center;
+    }
+  }
 </style>
